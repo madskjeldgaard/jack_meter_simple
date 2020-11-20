@@ -14,6 +14,8 @@ jack_meter SuperCollider:out_1 SuperCollider:out_2
 
 ## Example i3blocks config
 
+
+![jack_meter in action](jack_meter_status.png)
 ```bash
 [jack_db]
 align=left
