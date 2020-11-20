@@ -1,6 +1,6 @@
 /*
 
-        jackmeter.c
+        jack_meter_simple.c
         Simple console based Digital Peak Meter for JACK
         Copyright (C) 2005  Nicholas J. Humfrey
 
@@ -155,7 +155,7 @@ static int fsleep(float secs) {
 
 /* Display how to use this program */
 static int usage(const char *progname) {
-  fprintf(stderr, "jackmeter version %s\n\n", VERSION);
+  fprintf(stderr, "jack_meter_simple version %s\n\n", VERSION);
   fprintf(stderr,
           "Usage %s [-f freqency] [-r ref-level] [-w width] [-s servername] "
           "[-n] [<port>, ...]\n\n",

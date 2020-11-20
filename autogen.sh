@@ -1,7 +1,7 @@
 #!/bin/sh
 # Run this to set up the build system: configure, makefiles, etc.
 
-package="jackmeter"
+package="jack_meter_simple"
 
 
 srcdir=`dirname $0`

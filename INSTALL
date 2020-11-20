@@ -2,7 +2,7 @@
 Installing Jack Meter
 =====================
 
-jack_meter uses the automake build system, so should
+jack_meter_simple uses the automake build system, so should
 work on any system supported by JACK. Quick Start:
 
  ./configure

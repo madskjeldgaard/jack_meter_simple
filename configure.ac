@@ -3,8 +3,8 @@ AC_PREREQ(2.59)
 
 
 dnl ############# Initialization
-AC_INIT([jackmeter], [0.4], [njh@aelius.com], jackmeter)
-AC_CONFIG_SRCDIR([jack_meter.c])
+AC_INIT([jack_meter_simple], [0.4], [njh@aelius.com], jack_meter_simple)
+AC_CONFIG_SRCDIR([jack_meter_simple.c])
 AC_CONFIG_AUX_DIR([build-scripts])
 AC_CONFIG_MACRO_DIR([build-scripts])
 AM_INIT_AUTOMAKE
