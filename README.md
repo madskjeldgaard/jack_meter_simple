@@ -1,5 +1,7 @@
 # jack_meter
 
+![extreme xruns](extreme-xruns-status.gif)
+
 A simple script that displays amplitude in db of the output of a jack device as plain text. This is a fork/rework of Nicholas J. Humfrey's `jack_meter` but with a much more simplified output that works well with status bar programs like `i3blocks` and `i3status`.
 
 ## Example command
