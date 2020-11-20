@@ -342,10 +342,10 @@ int main(int argc, char *argv[]) {
     float db = 20.0f * log10f(read_peak() * bias);
 
     // Display number of decibels
-    printf("%1.1f db \n", db);
+    fprintf(stdout, "%1.1f db \n", db);
 
     // Flush the output buffer (needed for i3blocks and others )
-    fflush(stdout);
+    /* fflush(stdout); */
 
     /* if (decibels_mode==1) { */
     /* 	printf("%1.1f\n", db); */
