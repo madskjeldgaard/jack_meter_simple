@@ -9,7 +9,7 @@ jack_meter SuperCollider:out_1
 ```
 Set several ports (which will be mixed to mono before analysis)
 ```bash
-jack_meter SuperCollider:out_1 SuperCollider:out_2
+jack_meter "PulseAudio JACK Sink:front-left" "PulseAudio JACK Sink:front-right"
 ```
 
 ## Example i3blocks config
